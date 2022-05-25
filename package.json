@@ -1,0 +1,16 @@
+{
+  "name": "manthemes",
+  "version": "1.0.1",
+  "description": "List of my made themes!",
+  "main": "index.js",
+  "keywords": [
+    "mantine",
+    "theme",
+    "javascript"
+  ],
+  "author": "johnsiras",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
