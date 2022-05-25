@@ -1,13 +1,21 @@
 {
   "name": "manthemes",
   "version": "1.0.1",
-  "description": "List of my made themes!",
+  "description": "Mantine made themes.",
   "main": "index.js",
   "keywords": [
     "mantine",
     "theme",
     "javascript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Johnsiras/manthemes.git"
+  },
+  "homepage": "https://github.com/Johnsiras/manthemes#readme",
+  "bugs": {
+    "url": "https://github.com/Johnsiras/manthemes/issues"
+  },
   "author": "johnsiras",
   "license": "MIT",
   "devDependencies": {
