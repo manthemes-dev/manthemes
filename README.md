@@ -1,5 +1,5 @@
-<h1 style="text-align: center;">Manthemes</h1>
-<p style="text-align: center;">A package that has made mantine themes.</p>
+<h1 class="center">Manthemes</h1>
+<p class="center">A package that has made mantine themes.</p>
 
 ---
 
