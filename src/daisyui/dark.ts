@@ -1,4 +1,4 @@
-const dark = {
+const dark: any = {
   colorScheme: "dark",
   black: "#2A303C",
   white: "#EBEBEB",
@@ -17,7 +17,7 @@ const dark = {
       "#212630",
     ],
 
-    grape: [
+    primary: [
       "#CDB6F7",
       "#C1A3F5",
       "#B591F3",
@@ -30,7 +30,7 @@ const dark = {
       "#6018DC",
     ],
 
-    pink: [
+    secondary: [
       "#F3B9E4",
       "#F0A8DD",
       "#ED96D6",
@@ -43,7 +43,7 @@ const dark = {
       "#D025A2",
     ],
 
-    teal: [
+    accent: [
       "#96EDE6",
       "#85EAE2",
       "#74E7DD",
@@ -56,7 +56,7 @@ const dark = {
       "#1FADA2",
     ],
 
-    blue: [
+    info: [
       "#D8F2FE",
       "#C4ECFD",
       "#B1E5FC",
@@ -69,7 +69,20 @@ const dark = {
       "#26B9F7",
     ],
 
-    yellow: [
+    success: [
+      "#BCF1DD",
+      "#ABEDD5",
+      "#9BE9CC",
+      "#8AE5C4",
+      "#79E2BB",
+      "#68DEB3",
+      "#58DAAA",
+      "#47D7A2",
+      "#36D399",
+      "#2CC98F",
+    ],
+
+    warning: [
       "#FDEDC3",
       "#FDE7AF",
       "#FDE19B",
@@ -82,7 +95,7 @@ const dark = {
       "#FAB80F",
     ],
 
-    red: [
+    error: [
       "#FFFFFF",
       "#FEEBEB",
       "#FED8D8",

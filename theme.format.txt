@@ -1,0 +1,26 @@
+// The name of your theme
+export const myTheme: any = {
+  colorScheme: "", // The colorscheme whether it will be dark or light
+  black: "", // The black color based on the colorScheme
+  white: "", // The white color based on the colorScheme
+
+  /* You add more options like primaryShade or radius etc. */
+
+  // All of the colors here are optional!
+  colors: {
+    dark: [],
+    grape: [],
+    pink: [],
+    teal: [],
+    blue: [],
+    yellow: [],
+    red: [],
+    gray: [],
+    lime: [],
+    orange: [],
+    green: [],
+    cyan: [],
+    indigo: [],
+    violet: [],
+  },
+};

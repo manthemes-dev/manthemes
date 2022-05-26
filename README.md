@@ -1,30 +1,33 @@
-# ManThemes
+<h1 style="text-align: center;">Manthemes</h1>
+<p style="text-align: center;">A package that has made mantine themes.</p>
 
-For mantine users that wants different themes!
+---
 
 ## Usage
 
-To get started import the `getTheme` from the package and put the function to the themeProvider
-and specify a type and a theme.
-
-```tsx
-import { getTheme } from "manthemes";
-
-<MantineProvider theme={getTheme("daisyui", "dark")} withNormalizeCSS>
-  {/* The children here */}
-</MantineProvider>;
-```
-
-or
+To use a theme and to know what themes go to **Available Themes** here's an example:
 
 ```jsx
-const getTheme = require("manthemes");
+import { MantineProvider } from "@mantine/core";
+import { synthwave } from "manthemes/daisyui";
 
-<MantineProvider theme={getTheme("daisyui", "dark")} withNormalizeCSS>
-  {/* The children here */}
-</MantineProvider>;
+function App() {
+  return (
+    <MantineProvider theme={synthwave} withGlobalStyles withNormalizeCSS>
+      <YourOutlet />
+    </MantineProvider>
+  );
+}
 ```
 
-and you're done!
+## Available Themes
 
-**Note:** This is still in progress.
+- [Daisyui](https://daisyui.com)
+  - dark
+  - light
+  - synthwave
+  - dracula
+
+## Contributing
+
+To contribute you must clone this repository and look at the `theme.format` there you must follow the instructions in order to add a new theme.

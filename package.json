@@ -1,13 +1,16 @@
 {
   "name": "manthemes",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Mantine made themes.",
-  "main": "index.js",
   "keywords": [
     "mantine",
     "theme",
+    "react",
     "javascript"
   ],
+  "directories": {
+    "lib": "./lib/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Johnsiras/manthemes.git"

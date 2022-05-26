@@ -4,13 +4,13 @@ declare const light: {
     black: string;
     colors: {
         dark: string[];
-        grape: string[];
-        pink: string[];
-        teal: string[];
-        blue: string[];
-        green: string[];
-        yellow: string[];
-        red: string[];
+        primary: string[];
+        secondary: string[];
+        accent: string[];
+        info: string[];
+        success: string[];
+        warning: string[];
+        error: string[];
     };
 };
 export default light;
