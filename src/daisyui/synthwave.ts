@@ -1,4 +1,6 @@
-const synthwave: any = {
+import { MantineThemeOverride } from "@mantine/core";
+
+const synthwave: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#2d1b69",
   white: "#f9f7fd",

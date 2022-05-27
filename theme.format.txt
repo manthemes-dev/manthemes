@@ -1,5 +1,5 @@
 // The name of your theme
-export const myTheme: any = {
+const myTheme = {
   colorScheme: "", // The colorscheme whether it will be dark or light
   black: "", // The black color based on the colorScheme
   white: "", // The white color based on the colorScheme
@@ -24,3 +24,5 @@ export const myTheme: any = {
     violet: [],
   },
 };
+
+module.exports = myTheme;

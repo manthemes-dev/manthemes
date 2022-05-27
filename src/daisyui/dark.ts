@@ -1,4 +1,6 @@
-const dark: any = {
+import { MantineThemeOverride } from "@mantine/core";
+
+const dark: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#2A303C",
   white: "#EBEBEB",

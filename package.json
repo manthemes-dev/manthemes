@@ -2,15 +2,14 @@
   "name": "manthemes",
   "version": "1.0.5",
   "description": "Mantine made themes.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "mantine",
     "theme",
     "react",
     "javascript"
   ],
-  "directories": {
-    "lib": "./lib/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Johnsiras/manthemes.git"
@@ -21,7 +20,7 @@
   },
   "author": "johnsiras",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.7.2"
+  "dependencies": {
+    "@mantine/core": "^4.2.6"
   }
 }
