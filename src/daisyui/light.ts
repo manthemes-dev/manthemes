@@ -19,7 +19,7 @@ const light: MantineThemeOverride = {
       "#353B46",
     ],
 
-    primary: [
+    violet: [
       "#C8B1FC",
       "#AD89FB",
       "#AD89FB",
@@ -32,7 +32,7 @@ const light: MantineThemeOverride = {
       "#5007ED",
     ],
 
-    secondary: [
+    pink: [
       "#FF99E7",
       "#FF85E2",
       "#FF70DE",
@@ -45,7 +45,7 @@ const light: MantineThemeOverride = {
       "#E000AC",
     ],
 
-    accent: [
+    teal: [
       "#BEEEE9",
       "#AEEAE4",
       "#9EE6DF",
@@ -58,7 +58,7 @@ const light: MantineThemeOverride = {
       "#31C4B5",
     ],
 
-    info: [
+    blue: [
       "#D8F2FE",
       "#C4ECFD",
       "#B1E5FC",
@@ -71,7 +71,7 @@ const light: MantineThemeOverride = {
       "#26B9F7",
     ],
 
-    success: [
+    green: [
       "#BCF1DD",
       "#ABEDD5",
       "#9BE9CC",
@@ -84,7 +84,7 @@ const light: MantineThemeOverride = {
       "#2CC98F",
     ],
 
-    warning: [
+    orange: [
       "#FDEDC3",
       "#FDE7AF",
       "#FDE19B",
@@ -97,7 +97,7 @@ const light: MantineThemeOverride = {
       "#FAB80F",
     ],
 
-    error: [
+    red: [
       "#FCC5C5",
       "#FBB1B1",
       "#FA9E9E",

@@ -2,8 +2,11 @@
   "name": "manthemes",
   "version": "1.0.5",
   "description": "Mantine made themes.",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "scripts": {
+    "tsc:clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "tsc:watch": "tsc --build --watch"
+  },
   "keywords": [
     "mantine",
     "theme",
