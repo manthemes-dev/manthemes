@@ -19,7 +19,7 @@ const synthwave: MantineThemeOverride = {
       "#2A1961",
     ],
 
-    pink: [
+    primary: [
       "#FFFFFF",
       "#FCEEF7",
       "#F9DCEF",
@@ -32,7 +32,7 @@ const synthwave: MantineThemeOverride = {
       "#E363B6",
     ],
 
-    teal: [
+    secondary: [
       "#C6ECFA",
       "#B3E5F9",
       "#A0DFF8",
@@ -45,7 +45,7 @@ const synthwave: MantineThemeOverride = {
       "#1AB3EF",
     ],
 
-    yellow: [
+    accent: [
       "#FBF1C5",
       "#FAECB2",
       "#F9E79F",
@@ -58,7 +58,7 @@ const synthwave: MantineThemeOverride = {
       "#F2C618",
     ],
 
-    cyan: [
+    info: [
       "#C6EAFA",
       "#B3E3F9",
       "#A0DCF8",
@@ -71,7 +71,7 @@ const synthwave: MantineThemeOverride = {
       "#1AACEF",
     ],
 
-    green: [
+    success: [
       "#CAF7EF",
       "#B8F4E9",
       "#A7F1E3",
@@ -84,7 +84,7 @@ const synthwave: MantineThemeOverride = {
       "#2ADFBB",
     ],
 
-    orange: [
+    warning: [
       "#FBF1C5",
       "#FAECB2",
       "#F9E79F",
@@ -97,7 +97,7 @@ const synthwave: MantineThemeOverride = {
       "#F2C618",
     ],
 
-    red: [
+    error: [
       "#F7CAD0",
       "#F4B8C0",
       "#F1A7B1",

@@ -19,7 +19,7 @@ const dracula: MantineThemeOverride = {
       "#1A1B23",
     ],
 
-    pink: [
+    primary: [
       "#FFC2E4",
       "#FFADDC",
       "#FF99D3",
@@ -32,7 +32,7 @@ const dracula: MantineThemeOverride = {
       "#FF0A95",
     ],
 
-    violet: [
+    secondary: [
       "#DCC5FB",
       "#D0B2FA",
       "#C49FF9",
@@ -45,7 +45,7 @@ const dracula: MantineThemeOverride = {
       "#7218F2",
     ],
 
-    orange: [
+    accent: [
       "#FFE1C2",
       "#FFD8AD",
       "#FFCE99",
@@ -58,7 +58,7 @@ const dracula: MantineThemeOverride = {
       "#FF890A",
     ],
 
-    blue: [
+    info: [
       "#C2F3FE",
       "#AEF0FE",
       "#9AECFE",
@@ -71,7 +71,7 @@ const dracula: MantineThemeOverride = {
       "#0ED0FB",
     ],
 
-    green: [
+    success: [
       "#C4FDD1",
       "#B1FCC3",
       "#9DFBB4",
@@ -84,7 +84,7 @@ const dracula: MantineThemeOverride = {
       "#12F84B",
     ],
 
-    yellow: [
+    warning: [
       "#F7FDC4",
       "#F5FCB1",
       "#F3FB9D",
@@ -97,7 +97,7 @@ const dracula: MantineThemeOverride = {
       "#E2F514",
     ],
 
-    red: [
+    error: [
       "#FFC2C2",
       "#FFADAD",
       "#FF9999",
