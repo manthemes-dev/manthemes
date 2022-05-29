@@ -2,9 +2,12 @@
   "name": "manthemes",
   "version": "1.1.0-0",
   "description": "Mantine made themes.",
+  "exports": {
+    ".": "./dist/"
+  },
   "scripts": {
-    "tsc:clean": "tsc --build --clean",
     "build": "tsc --build",
+    "tsc:clean": "tsc --build --clean",
     "tsc:watch": "tsc --build --watch"
   },
   "keywords": [
