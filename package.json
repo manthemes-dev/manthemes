@@ -5,8 +5,15 @@
   "author": "johnsiras",
   "license": "MIT",
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
+  "typesVersions": {
+    "*": {
+      "daisyui": ["dist/daisyui/index.d.ts"],
+      "material": ["dist/material/index.d.ts"]
+    }
+  },
   "exports": {
-    ".": "./dist/"
+    "./daisyui": "./dist/daisyui/index.js",
+    "./material": "./dist/material/index.js"
   },
   "scripts": {
     "build": "tsc --build",

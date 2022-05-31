@@ -1,1 +1,4 @@
-export * from "./light";
+import light from "./light";
+
+export { light };
+

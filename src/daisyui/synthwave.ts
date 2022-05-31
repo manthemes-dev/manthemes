@@ -4,6 +4,7 @@ const synthwave: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#2d1b69",
   white: "#f9f7fd",
+  
   primaryColor: "dark",
 
   colors: {

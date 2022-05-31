@@ -4,7 +4,6 @@
     "target": "ES2019",
     "module": "CommonJS",
     "declaration": true,
-    "emitDeclarationOnly": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
