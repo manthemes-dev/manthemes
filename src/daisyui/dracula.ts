@@ -4,6 +4,7 @@ const dracula: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#282a36",
   white: "#f8f8f2",
+  primaryColor: "dark",
 
   colors: {
     dark: [

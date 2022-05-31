@@ -2,6 +2,9 @@
   "name": "manthemes",
   "version": "1.1.0-0",
   "description": "Mantine made themes.",
+  "author": "johnsiras",
+  "license": "MIT",
+  "homepage": "https://github.com/Johnsiras/manthemes#readme",
   "exports": {
     ".": "./dist/"
   },
@@ -20,13 +23,13 @@
     "type": "git",
     "url": "https://github.com/Johnsiras/manthemes.git"
   },
-  "homepage": "https://github.com/Johnsiras/manthemes#readme",
   "bugs": {
     "url": "https://github.com/Johnsiras/manthemes/issues"
   },
-  "author": "johnsiras",
-  "license": "MIT",
   "dependencies": {
-    "@mantine/core": "^4.2.6"
+    "@mantine/core": "^4.2.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
   }
 }

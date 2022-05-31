@@ -4,6 +4,7 @@ const dark: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#2A303C",
   white: "#EBEBEB",
+  primaryColor: "dark",
 
   colors: {
     dark: [
