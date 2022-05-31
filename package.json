@@ -1,14 +1,18 @@
 {
   "name": "manthemes",
-  "version": "1.1.0-0",
+  "version": "1.2.0-0",
   "description": "Mantine made themes.",
   "author": "johnsiras",
   "license": "MIT",
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
   "typesVersions": {
     "*": {
-      "daisyui": ["dist/daisyui/index.d.ts"],
-      "material": ["dist/material/index.d.ts"]
+      "daisyui": [
+        "dist/daisyui/index.d.ts"
+      ],
+      "material": [
+        "dist/material/index.d.ts"
+      ]
     }
   },
   "exports": {
