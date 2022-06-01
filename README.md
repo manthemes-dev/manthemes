@@ -27,6 +27,10 @@ function App() {
   - light
   - synthwave
   - dracula
+  - bumblebee
+
+- [Material](https://mui.com)
+  - light
 
 ## Contributing
 
