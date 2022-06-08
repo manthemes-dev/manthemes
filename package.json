@@ -5,8 +5,27 @@
   "author": "johnsiras",
   "license": "MIT",
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
-  "np": {
-    "contents": "dist"
+  "exports": {
+    "./daisyui": "./dist/daisyui/index.js",
+    "./material": "./dist/material/index.js",
+    "./bootstrap": "./dist/bootstrap/index.js",
+    "./utils": "./dist/utils/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "daisyui": [
+        "dist/daisyui/index.d.ts"
+      ],
+      "material": [
+        "dist/material/index.d.ts"
+      ],
+      "bootstrap": [
+        "dist/bootstrap/index.d.ts"
+      ],
+      "utils": [
+        "dist/utils/index.d.ts"
+      ]
+    }
   },
   "scripts": {
     "build": "tsc --build",
@@ -30,7 +49,6 @@
     "@mantine/core": "^4.2.8"
   },
   "devDependencies": {
-    "np": "^7.6.1",
     "typescript": "^4.7.3"
   }
 }
