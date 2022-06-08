@@ -1,6 +1,6 @@
-import { MantineThemeOverride } from "@mantine/core";
+import { ManTheme } from "../utils";
 
-const bumblebee: MantineThemeOverride = {
+const bumblebee = new ManTheme({
   colorScheme: "light",
   black: "#1f2937",
   white: "#ffffff",
@@ -113,7 +113,7 @@ const bumblebee: MantineThemeOverride = {
     ],
 
   },
-};
+});
 
 export default bumblebee;
 

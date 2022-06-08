@@ -1,3 +1,5 @@
 src/
 node_modules/
+theme.format.txt
+yarn.lock
 tsconfig.json

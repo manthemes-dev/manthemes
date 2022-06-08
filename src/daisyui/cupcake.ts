@@ -1,63 +1,50 @@
 import { ManTheme } from "../utils";
 
-const dark = new ManTheme({
-  colorScheme: "dark",
-  black: "#2A303C",
-  white: "#EBEBEB",
-  
+const cupcake = new ManTheme({
+  colorScheme: "light",
+  white: "#faf7f5",
+  black: "#291334",
+
   primaryColor: "dark",
 
   colors: {
-    dark: [
-      "#6C809D",
-      "#627693",
-      "#5A6C87",
-      "#52627A",
-      "#49586E",
-      "#414E62",
-      "#394456",
-      "#313A49",
-      "#29303D",
-      "#212630",
-    ],
-
     primary: [
-      "#CDB6F7",
-      "#C1A3F5",
-      "#B591F3",
-      "#A87EF1",
-      "#9C6CEF",
-      "#905AED",
-      "#8347EB",
-      "#7735E9",
-      "#6A23E7",
-      "#6018DC",
+      "#D2EDEE",
+      "#C3E7E9",
+      "#B4E2E4",
+      "#A5DCDF",
+      "#96D6D9",
+      "#87D0D4",
+      "#78CACE",
+      "#69C4C9",
+      "#5ABEC4",
+      "#4BB8BE",
     ],
 
     secondary: [
-      "#F3B9E4",
-      "#F0A8DD",
-      "#ED96D6",
-      "#EA85CF",
-      "#E774C8",
-      "#E363C1",
-      "#E052BA",
-      "#DD40B3",
-      "#DA2FAD",
-      "#D025A2",
+      "#F6CBDB",
+      "#F3B9CE",
+      "#F0A8C2",
+      "#ED96B6",
+      "#EA85AA",
+      "#E7739E",
+      "#E46292",
+      "#E15186",
+      "#DE3F7A",
+      "#DC2E6D",
     ],
 
     accent: [
-      "#96EDE6",
-      "#85EAE2",
-      "#74E7DD",
-      "#63E3D9",
-      "#52E0D4",
-      "#40DDD0",
-      "#25D0C2",
-      "#25D0C2",
-      "#22BFB2",
-      "#1FADA2",
+      "#F7D9A1",
+      "#F6D18E",
+      "#F4CA7C",
+      "#F2C269",
+      "#F0BA56",
+      "#EFB343",
+      "#EDAB31",
+      "#EBA31E",
+      "#E19914",
+      "#CE8C12",
     ],
 
     info: [
@@ -111,7 +98,7 @@ const dark = new ManTheme({
       "#F86363",
       "#F75050",
     ],
-  },
+  }
 });
 
-export default dark;
+export default cupcake;

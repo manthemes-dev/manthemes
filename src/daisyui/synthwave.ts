@@ -1,6 +1,6 @@
-import { MantineThemeOverride } from "@mantine/core";
+import { ManTheme } from "../utils";
 
-const synthwave: MantineThemeOverride = {
+const synthwave = new ManTheme({
   colorScheme: "dark",
   black: "#2d1b69",
   white: "#f9f7fd",
@@ -112,6 +112,6 @@ const synthwave: MantineThemeOverride = {
       "#DF2A42",
     ],
   },
-};
+});
 
 export default synthwave;

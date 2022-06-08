@@ -1,5 +1,5 @@
-<h1 class="center">Manthemes</h1>
-<p class="center">A package that has made mantine themes.</p>
+<h1 align="center">Manthemes</h1>
+<p align="center">A package that has made mantine themes.</p>
 
 ---
 
@@ -20,6 +20,26 @@ function App() {
 }
 ```
 
+To override a theme:
+
+```jsx
+// This is just for example, override a theme whatever you want.
+import { synthwave } from "manthemes/daisyui";
+
+// Override synthwave, since it's a class you can override, getColor or getColors
+const overridedSynthwave = synthwave.override({
+  /* props here */
+});
+
+function App() {
+  return (
+    <MantineProvider theme={overridedSynthwave} withGlobalStyles withNormalizeCSS>
+      <YourOutlet />
+    </MantineProvider>
+  );
+}
+```
+
 ## Available Themes
 
 - [Daisyui](https://daisyui.com)
@@ -28,10 +48,20 @@ function App() {
   - synthwave
   - dracula
   - bumblebee
+  - cupcake
+
+----
 
 - [Material](https://mui.com)
   - light
+  - dark
+  
+----
+
+- [Bootstrap](https://getbootstrap.com)
+  - light
+  - dark
 
 ## Contributing
 
-To contribute you must clone this repository and look at the `theme.format` there you must follow the instructions in order to add a new theme.
+To contribute you must clone this repository and look at the `theme.format.txt` file, there you must follow the instructions in order to add a new theme and contribute too.

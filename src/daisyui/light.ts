@@ -1,6 +1,6 @@
-import { MantineThemeOverride } from "@mantine/core";
+import { ManTheme } from "../utils";
 
-const light: MantineThemeOverride = {
+const light = new ManTheme({
   colorScheme: "light",
   white: "#ffffff",
   black: "#1f2937",
@@ -112,6 +112,6 @@ const light: MantineThemeOverride = {
       "#F31616",
     ],
   },
-};
+});
 
 export default light;

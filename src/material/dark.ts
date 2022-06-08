@@ -1,9 +1,9 @@
-import { ManTheme } from "../utils"
+import { ManTheme } from "../utils";
 
-const light = new ManTheme({
-  colorScheme: "light",
-  black: "#212121",
-  white: "#fafafa",
+const dark = new ManTheme({
+  colorScheme: "dark",
+  black: "#121212",
+  white: "#fff",
   primaryColor: "info",
 
   colors: {
@@ -100,4 +100,4 @@ const light = new ManTheme({
   }
 });
 
-export default light;
+export default dark;
