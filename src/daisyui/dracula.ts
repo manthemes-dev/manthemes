@@ -1,6 +1,6 @@
 import { ManTheme } from "../utils";
 
-const dracula = new ManTheme({
+const dracula = new ManTheme().create({
   colorScheme: "dark",
   black: "#282a36",
   white: "#f8f8f2",

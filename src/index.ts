@@ -23,3 +23,8 @@ declare module "@mantine/core" {
     colors: Record<ExtendedCustomColors, Tuple<string, 10>>;
   }
 }
+
+// Export themes too.
+export * as daisyui from "./daisyui";
+export * as material from "./material";
+export * as bootstrap from "./bootstrap";

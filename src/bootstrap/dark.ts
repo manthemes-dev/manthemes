@@ -1,6 +1,6 @@
 import { ManTheme } from "../utils";
 
-const light = new ManTheme({
+const light = new ManTheme().create({
   colorScheme: "dark",
   white: "#fff",
   black: "#000",

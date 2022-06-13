@@ -1,10 +1,13 @@
 import { ManTheme } from "../utils";
+import { defaultDaisyuiColors } from "../utils/defaultColors";
 
-const light = new ManTheme({
+const theme = new ManTheme();
+
+const light = theme.create({
   colorScheme: "light",
   white: "#ffffff",
   black: "#1f2937",
-  
+
   primaryColor: "dark",
 
   colors: {
@@ -60,57 +63,7 @@ const light = new ManTheme({
       "#31C4B5",
     ],
 
-    info: [
-      "#D8F2FE",
-      "#C4ECFD",
-      "#B1E5FC",
-      "#9DDFFB",
-      "#89D9FB",
-      "#75D2FA",
-      "#62CCF9",
-      "#4EC5F9",
-      "#3ABFF8",
-      "#26B9F7",
-    ],
-
-    success: [
-      "#BCF1DD",
-      "#ABEDD5",
-      "#9BE9CC",
-      "#8AE5C4",
-      "#79E2BB",
-      "#68DEB3",
-      "#58DAAA",
-      "#47D7A2",
-      "#36D399",
-      "#2CC98F",
-    ],
-
-    warning: [
-      "#FDEDC3",
-      "#FDE7AF",
-      "#FDE19B",
-      "#FDDB87",
-      "#FCD573",
-      "#FCCF5F",
-      "#FBC94B",
-      "#FBC337",
-      "#FBBD23",
-      "#FAB80F",
-    ],
-
-    error: [
-      "#FCC5C5",
-      "#FBB1B1",
-      "#FA9E9E",
-      "#F98B8B",
-      "#F87777",
-      "#F76464",
-      "#F65151",
-      "#F53D3D",
-      "#F42A2A",
-      "#F31616",
-    ],
+    ...defaultDaisyuiColors,
   },
 });
 

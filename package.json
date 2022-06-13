@@ -29,8 +29,8 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "tsc:clean": "tsc --build --clean",
-    "tsc:watch": "tsc --build --watch"
+    "build:clean": "tsc --build --clean",
+    "build:watch": "tsc --build --watch"
   },
   "keywords": [
     "mantine",
@@ -46,7 +46,8 @@
     "url": "https://github.com/Johnsiras/manthemes/issues"
   },
   "dependencies": {
-    "@mantine/core": "^4.2.8"
+    "@mantine/core": "^4.2.9",
+    "type-fest": "^2.13.0"
   },
   "devDependencies": {
     "typescript": "^4.7.3"

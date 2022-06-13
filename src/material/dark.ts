@@ -1,13 +1,13 @@
 import { ManTheme } from "../utils";
 
-const dark = new ManTheme({
+const dark = new ManTheme().create({
   colorScheme: "dark",
   black: "#121212",
   white: "#fff",
   primaryColor: "info",
 
   colors: {
-    dark: [
+    gray: [
       "#fafafa",
       "#f5f5f5",
       "#eeeeee",
@@ -19,7 +19,7 @@ const dark = new ManTheme({
       "#424242",
       "#212121",
     ],
-    
+
     primary: [
       "#e3f2fd",
       "#bbdefb",
@@ -45,7 +45,7 @@ const dark = new ManTheme({
       "#6a1b9a",
       "#4a148c",
     ],
-    
+
     error: [
       "#ffebee",
       "#ffcdd2",
@@ -96,8 +96,8 @@ const dark = new ManTheme({
       "#388e3c",
       "#2e7d32",
       "#1b5e20",
-    ]
-  }
+    ],
+  },
 });
 
 export default dark;

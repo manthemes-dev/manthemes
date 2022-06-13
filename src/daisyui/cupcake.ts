@@ -1,6 +1,6 @@
 import { ManTheme } from "../utils";
 
-const cupcake = new ManTheme({
+const cupcake = new ManTheme().create({
   colorScheme: "light",
   white: "#faf7f5",
   black: "#291334",

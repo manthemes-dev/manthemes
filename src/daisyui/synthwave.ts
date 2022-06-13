@@ -1,10 +1,12 @@
 import { ManTheme } from "../utils";
 
-const synthwave = new ManTheme({
+const theme = new ManTheme();
+
+const synthwave = theme.create({
   colorScheme: "dark",
   black: "#2d1b69",
   white: "#f9f7fd",
-  
+
   primaryColor: "dark",
 
   colors: {
