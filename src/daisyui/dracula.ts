@@ -1,11 +1,12 @@
 import { ManTheme } from "../utils";
 
-const dracula = new ManTheme().create({
+export const dracula = new ManTheme().create({
   colorScheme: "dark",
   black: "#282a36",
   white: "#f8f8f2",
-  
-  primaryColor: "dark",
+
+  primaryColor: "neutral",
+  primaryShade: 8,
 
   colors: {
     dark: [
@@ -21,7 +22,20 @@ const dracula = new ManTheme().create({
       "#1A1B23",
     ],
 
-    primary: [
+    neutral: [
+      "#959AB1",
+      "#8A8FA8",
+      "#7E84A0",
+      "#727997",
+      "#686F8D",
+      "#5F6581",
+      "#575C75",
+      "#4E536A",
+      "#45495E",
+      "#3D4052",
+    ],
+
+    pink: [
       "#FFC2E4",
       "#FFADDC",
       "#FF99D3",
@@ -34,7 +48,7 @@ const dracula = new ManTheme().create({
       "#FF0A95",
     ],
 
-    secondary: [
+    violet: [
       "#DCC5FB",
       "#D0B2FA",
       "#C49FF9",
@@ -47,7 +61,7 @@ const dracula = new ManTheme().create({
       "#7218F2",
     ],
 
-    accent: [
+    orange: [
       "#FFE1C2",
       "#FFD8AD",
       "#FFCE99",
@@ -60,7 +74,7 @@ const dracula = new ManTheme().create({
       "#FF890A",
     ],
 
-    info: [
+    blue: [
       "#C2F3FE",
       "#AEF0FE",
       "#9AECFE",
@@ -73,7 +87,7 @@ const dracula = new ManTheme().create({
       "#0ED0FB",
     ],
 
-    success: [
+    green: [
       "#C4FDD1",
       "#B1FCC3",
       "#9DFBB4",
@@ -86,7 +100,7 @@ const dracula = new ManTheme().create({
       "#12F84B",
     ],
 
-    warning: [
+    yellow: [
       "#F7FDC4",
       "#F5FCB1",
       "#F3FB9D",
@@ -99,7 +113,7 @@ const dracula = new ManTheme().create({
       "#E2F514",
     ],
 
-    error: [
+    red: [
       "#FFC2C2",
       "#FFADAD",
       "#FF9999",
@@ -113,5 +127,3 @@ const dracula = new ManTheme().create({
     ],
   },
 });
-
-export default dracula;

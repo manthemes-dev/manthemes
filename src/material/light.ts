@@ -1,10 +1,11 @@
 import { ManTheme } from "../utils";
 
-const light = new ManTheme().create({
+export const light = new ManTheme().create({
   colorScheme: "light",
   black: "#212121",
   white: "#fafafa",
-  primaryColor: "info",
+
+  primaryColor: "blue",
 
   colors: {
     dark: [
@@ -20,7 +21,7 @@ const light = new ManTheme().create({
       "#212121",
     ],
 
-    primary: [
+    blue: [
       "#e3f2fd",
       "#bbdefb",
       "#90caf9",
@@ -33,7 +34,7 @@ const light = new ManTheme().create({
       "#0d47a1",
     ],
 
-    secondary: [
+    grape: [
       "#f3e5f5",
       "#e1bee7",
       "#ce93d8",
@@ -46,7 +47,7 @@ const light = new ManTheme().create({
       "#4a148c",
     ],
 
-    error: [
+    red: [
       "#ffebee",
       "#ffcdd2",
       "#ef9a9a",
@@ -59,7 +60,7 @@ const light = new ManTheme().create({
       "#b71c1c",
     ],
 
-    warning: [
+    orange: [
       "#fff3e0",
       "#ffe0b2",
       "#ffcc80",
@@ -72,20 +73,20 @@ const light = new ManTheme().create({
       "#e65100",
     ],
 
-    // info: [
-    //   "#e1f5fe",
-    //   "#b3e5fc",
-    //   "#81d4fa",
-    //   "#4fc3f7",
-    //   "#29b6f6",
-    //   "#03a9f4",
-    //   "#039be5",
-    //   "#0288d1",
-    //   "#0277bd",
-    //   "#01579b",
-    // ],
+    cyan: [
+      "#e1f5fe",
+      "#b3e5fc",
+      "#81d4fa",
+      "#4fc3f7",
+      "#29b6f6",
+      "#03a9f4",
+      "#039be5",
+      "#0288d1",
+      "#0277bd",
+      "#01579b",
+    ],
 
-    success: [
+    green: [
       "#e8f5e9",
       "#c8e6c9",
       "#a5d6a7",
@@ -99,5 +100,3 @@ const light = new ManTheme().create({
     ],
   },
 });
-
-export default light;

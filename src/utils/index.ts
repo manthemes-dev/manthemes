@@ -1,3 +1,1 @@
-import ManTheme from "./mantheme";
-
-export { ManTheme };
+export { default as ManTheme } from "./mantheme";

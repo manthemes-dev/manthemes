@@ -1,10 +1,8 @@
 // Import the `ManTheme` class from utils folder
-import { ManTheme } from "../utils";
+import { ManTheme } from "the_path_of_utils_folder_here";
 
-const myTheme = new ManTheme({
+export const myTheme = new ManTheme().create({
   /* Options here */
 });
 
-export default myTheme;
-
-// ---------- and then export the theme to index.ts -----------
+// ---------- and then re-export the theme to index.ts -----------

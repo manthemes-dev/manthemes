@@ -1,0 +1,116 @@
+import { ManTheme } from "../utils";
+
+export const retro = new ManTheme().create({
+  colorScheme: "light",
+  white: "#e4d8b4",
+  black: "#282425",
+
+  primaryColor: "neutral",
+  primaryShade: 8,
+
+  colors: {
+    neutral: [
+      "#CCC6B7",
+      "#C4BCAB",
+      "#BBB2A0",
+      "#B3A994",
+      "#AA9F88",
+      "#A2967C",
+      "#998D70",
+      "#8F8366",
+      "#83785D",
+      "#776D55",
+    ],
+
+    pink: [
+      "#F7CCCA",
+      "#F4BBB8",
+      "#F1AAA7",
+      "#EE9895",
+      "#EB8884",
+      "#E87773",
+      "#E56661",
+      "#E25450",
+      "#E0433E",
+      "#DF332A",
+    ],
+
+    lime: [
+      "#F2F8F5",
+      "#D8E9E0",
+      "#D8E9E0",
+      "#CBE1D5",
+      "#BEDACB",
+      "#B1D2C0",
+      "#A4CBB5",
+      "#97C3AA",
+      "#8ABC9F",
+      "#7DB594",
+    ],
+
+    yellow: [
+      "#F5EECC",
+      "#F2E8BB",
+      "#EEE1AA",
+      "#EADB99",
+      "#E7D688",
+      "#E4D077",
+      "#E1CA66",
+      "#DDC455",
+      "#DABE44",
+      "#D7B933",
+    ],
+
+    blue: [
+      "#C7D7FA",
+      "#B4CAF8",
+      "#A1BCF7",
+      "#8FAFF5",
+      "#7CA2F3",
+      "#6A95F1",
+      "#5787EF",
+      "#447AEE",
+      "#326DEC",
+      "#1F5FEA",
+    ],
+
+    green: [
+      "#6FEB9D",
+      "#5DE991",
+      "#4BE784",
+      "#3AE478",
+      "#28E26C",
+      "#1DD762",
+      "#1BC559",
+      "#18B451",
+      "#16A249",
+      "#149041",
+    ],
+
+    orange: [
+      "#FBC688",
+      "#FBBC74",
+      "#FBB360",
+      "#FAA94C",
+      "#FA9F38",
+      "#F99624",
+      "#F98C10",
+      "#EF8206",
+      "#DB7706",
+      "#C76C05",
+    ],
+
+    red: [
+      "#F4B8B8",
+      "#F1A7A7",
+      "#EE9696",
+      "#EB8484",
+      "#E87373",
+      "#E56161",
+      "#E25050",
+      "#E03E3E",
+      "#DD2C2C",
+      "#D32222",
+    ],
+  },
+});

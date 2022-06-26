@@ -1,14 +1,13 @@
 import { ManTheme } from "../utils";
 import { defaultDaisyuiColors } from "../utils/defaultColors";
 
-const theme = new ManTheme();
-
-const light = theme.create({
+export const light = new ManTheme().create({
   colorScheme: "light",
   white: "#ffffff",
   black: "#1f2937",
 
-  primaryColor: "dark",
+  primaryColor: "neutral",
+  primaryShade: 8,
 
   colors: {
     dark: [
@@ -24,7 +23,20 @@ const light = theme.create({
       "#353B46",
     ],
 
-    primary: [
+    neutral: [
+      "#8B95A7",
+      "#7F8A9F",
+      "#737F96",
+      "#69758C",
+      "#606B80",
+      "#586274",
+      "#4F5869",
+      "#464E5D",
+      "#3D4451",
+      "#353B46",
+    ],
+
+    violet: [
       "#C8B1FC",
       "#AD89FB",
       "#AD89FB",
@@ -37,7 +49,7 @@ const light = theme.create({
       "#5007ED",
     ],
 
-    secondary: [
+    pink: [
       "#FF99E7",
       "#FF85E2",
       "#FF70DE",
@@ -50,7 +62,7 @@ const light = theme.create({
       "#E000AC",
     ],
 
-    accent: [
+    teal: [
       "#BEEEE9",
       "#AEEAE4",
       "#9EE6DF",
@@ -66,5 +78,3 @@ const light = theme.create({
     ...defaultDaisyuiColors,
   },
 });
-
-export default light;

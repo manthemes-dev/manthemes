@@ -1,13 +1,12 @@
 import { ManTheme } from "../utils";
 
-const theme = new ManTheme();
-
-const synthwave = theme.create({
+export const synthwave = new ManTheme().create({
   colorScheme: "dark",
   black: "#2d1b69",
   white: "#f9f7fd",
 
-  primaryColor: "dark",
+  primaryColor: "neutral",
+  primaryShade: 8,
 
   colors: {
     dark: [
@@ -23,7 +22,20 @@ const synthwave = theme.create({
       "#2A1961",
     ],
 
-    primary: [
+    neutral: [
+      "#5A3ACF",
+      "#5030C5",
+      "#492CB5",
+      "#4328A4",
+      "#3C2494",
+      "#352083",
+      "#2F1C73",
+      "#281863",
+      "#211452",
+      "#1B1042",
+    ],
+
+    pink: [
       "#FFFFFF",
       "#FCEEF7",
       "#F9DCEF",
@@ -36,7 +48,7 @@ const synthwave = theme.create({
       "#E363B6",
     ],
 
-    secondary: [
+    blue: [
       "#C6ECFA",
       "#B3E5F9",
       "#A0DFF8",
@@ -49,7 +61,7 @@ const synthwave = theme.create({
       "#1AB3EF",
     ],
 
-    accent: [
+    yellow: [
       "#FBF1C5",
       "#FAECB2",
       "#F9E79F",
@@ -62,7 +74,7 @@ const synthwave = theme.create({
       "#F2C618",
     ],
 
-    info: [
+    teal: [
       "#C6EAFA",
       "#B3E3F9",
       "#A0DCF8",
@@ -75,7 +87,7 @@ const synthwave = theme.create({
       "#1AACEF",
     ],
 
-    success: [
+    green: [
       "#CAF7EF",
       "#B8F4E9",
       "#A7F1E3",
@@ -88,7 +100,7 @@ const synthwave = theme.create({
       "#2ADFBB",
     ],
 
-    warning: [
+    orange: [
       "#FBF1C5",
       "#FAECB2",
       "#F9E79F",
@@ -101,7 +113,7 @@ const synthwave = theme.create({
       "#F2C618",
     ],
 
-    error: [
+    red: [
       "#F7CAD0",
       "#F4B8C0",
       "#F1A7B1",
@@ -115,5 +127,3 @@ const synthwave = theme.create({
     ],
   },
 });
-
-export default synthwave;

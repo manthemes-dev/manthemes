@@ -1,13 +1,27 @@
 import { ManTheme } from "../utils";
 
-const cupcake = new ManTheme().create({
+export const cupcake = new ManTheme().create({
   colorScheme: "light",
   white: "#faf7f5",
   black: "#291334",
 
-  primaryColor: "dark",
+  primaryColor: "neutral",
+  primaryShade: 8,
 
   colors: {
+    neutral: [
+      "#8943B1",
+      "#7E3EA3",
+      "#673285",
+      "#673285",
+      "#5B2D76",
+      "#502768",
+      "#452259",
+      "#3A1C4A",
+      "#2E163B",
+      "#23112D",
+    ],
+
     primary: [
       "#D2EDEE",
       "#C3E7E9",
@@ -98,7 +112,5 @@ const cupcake = new ManTheme().create({
       "#F86363",
       "#F75050",
     ],
-  }
+  },
 });
-
-export default cupcake;

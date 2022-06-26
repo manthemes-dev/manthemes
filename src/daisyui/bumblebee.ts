@@ -1,11 +1,12 @@
 import { ManTheme } from "../utils";
 
-const bumblebee = new ManTheme().create({
+export const bumblebee = new ManTheme().create({
   colorScheme: "light",
   black: "#1f2937",
   white: "#ffffff",
 
-  primaryColor: "dark",
+  primaryColor: "neutral",
+  primaryShade: 8,
 
   colors: {
     dark: [
@@ -21,7 +22,20 @@ const bumblebee = new ManTheme().create({
       "#151528",
     ],
 
-    primary: [
+    neutral: [
+      "#5C5CAD",
+      "#5252A3",
+      "#4B4B95",
+      "#444488",
+      "#3E3E7A",
+      "#37376D",
+      "#30305F",
+      "#292951",
+      "#222244",
+      "#181830",
+    ],
+
+    orange: [
       "#F6E8CB",
       "#F4E1B8",
       "#F1D9A7",
@@ -34,7 +48,7 @@ const bumblebee = new ManTheme().create({
       "#DFA62A",
     ],
 
-  secondary: [
+    yellow: [
       "#FEF7D8",
       "#FDF3C4",
       "#FCEFB1",
@@ -47,19 +61,19 @@ const bumblebee = new ManTheme().create({
       "#F8D525",
     ],
 
-  accent: [
-    "#5C5CAD",
-    "#5252A3",
-    "#4B4B95",
-    "#444488",
-    "#3E3E7A",
-    "#37376D",
-    "#30305F",
-    "#292951",
-    "#222244",
-    "#181830",
-   ],
-   
+    violet: [
+      "#5C5CAD",
+      "#5252A3",
+      "#4B4B95",
+      "#444488",
+      "#3E3E7A",
+      "#37376D",
+      "#30305F",
+      "#292951",
+      "#222244",
+      "#181830",
+    ],
+
     info: [
       "#D8F2FE",
       "#C4ECFD",
@@ -111,23 +125,5 @@ const bumblebee = new ManTheme().create({
       "#F86363",
       "#F75050",
     ],
-
   },
 });
-
-export default bumblebee;
-
-/*
-    color: [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-    ],
-*/

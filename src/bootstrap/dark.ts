@@ -1,10 +1,11 @@
 import { ManTheme } from "../utils";
 
-const light = new ManTheme().create({
+export const dark = new ManTheme().create({
   colorScheme: "dark",
   white: "#fff",
   black: "#000",
-  primaryColor: "primary",
+
+  primaryColor: "blue",
 
   colors: {
     dark: [
@@ -19,8 +20,8 @@ const light = new ManTheme().create({
       "#8E99A4",
       "#828F9B",
     ],
-    
-    primary: [
+
+    blue: [
       "#C2DAFE",
       "#AFCEFE",
       "#9AC2FE",
@@ -33,8 +34,7 @@ const light = new ManTheme().create({
       "#0B6CFE",
     ],
 
-
-    success: [
+    green: [
       "#30D98A",
       "#26CF80",
       "#23BE75",
@@ -47,7 +47,7 @@ const light = new ManTheme().create({
       "#0D452B",
     ],
 
-    danger: [
+    error: [
       "#ED969F",
       "#EA858F",
       "#E77480",
@@ -60,7 +60,7 @@ const light = new ManTheme().create({
       "#AD1F2D",
     ],
 
-    warning: [
+    orange: [
       "#FFDB70",
       "#FFD65C",
       "#FFD147",
@@ -73,7 +73,7 @@ const light = new ManTheme().create({
       "#B88A00",
     ],
 
-    info: [
+    cyan: [
       "#77E2F8",
       "#64DEF7",
       "#51DAF6",
@@ -85,7 +85,5 @@ const light = new ManTheme().create({
       "#0AA3C2",
       "#0993AE",
     ],
-  }
+  },
 });
-
-export default light;

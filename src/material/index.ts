@@ -1,5 +1,2 @@
-import light from "./light";
-import dark from "./dark";
-
-export { light, dark };
-
+export { light } from "./light";
+export { dark } from "./dark";

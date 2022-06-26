@@ -3,7 +3,7 @@ import { PartialDeep } from "type-fest";
 
 // Colors
 export const defaultDaisyuiColors: PartialDeep<MantineThemeColors> = {
-  info: [
+  blue: [
     "#D8F2FE",
     "#C4ECFD",
     "#B1E5FC",
@@ -16,7 +16,7 @@ export const defaultDaisyuiColors: PartialDeep<MantineThemeColors> = {
     "#26B9F7",
   ],
 
-  success: [
+  green: [
     "#BCF1DD",
     "#ABEDD5",
     "#9BE9CC",
@@ -29,7 +29,7 @@ export const defaultDaisyuiColors: PartialDeep<MantineThemeColors> = {
     "#2CC98F",
   ],
 
-  warning: [
+  orange: [
     "#FDEDC3",
     "#FDE7AF",
     "#FDE19B",
@@ -42,7 +42,7 @@ export const defaultDaisyuiColors: PartialDeep<MantineThemeColors> = {
     "#FAB80F",
   ],
 
-  error: [
+  red: [
     "#FFFFFF",
     "#FEEBEB",
     "#FED8D8",

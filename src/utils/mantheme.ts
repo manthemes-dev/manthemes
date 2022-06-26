@@ -15,7 +15,7 @@ export default class ManTheme {
   }
 
   /**
-   * Override an existing theme props or create a new one.
+   * Override an existing theme props or create a new one
    * @param props - the props to override
    */
   public override({ props, theme }: overrideProps) {
@@ -27,7 +27,7 @@ export default class ManTheme {
   }
 
   /**
-   * Get a specified color and return the shades of it.
+   * Get a specified color and return the shades of it
    * @param color - the color to specified
    */
   public getColor(color: MantineColor, theme?: MantineThemeOverride) {
@@ -37,8 +37,8 @@ export default class ManTheme {
   }
 
   /**
-   * Get the colors of a theme.
-   * @param theme - The theme to retrieve colors. (This is optional)
+   * Get the colors of a theme
+   * @param theme - The theme to retrieve colors (This is optional)
    */
   public getColors(theme?: any) {
     return (theme || (this as MantineThemeOverride)).colors;

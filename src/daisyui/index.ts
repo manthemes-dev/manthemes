@@ -1,9 +1,7 @@
-import light from "./light";
-import dark from "./dark";
-
-import dracula from "./dracula";
-import synthwave from "./synthwave";
-import bumblebee from "./bumblebee";
-import cupcake from "./cupcake";
-
-export { light, dark, dracula, synthwave, bumblebee, cupcake };
+export { bumblebee } from "./bumblebee";
+export { dark } from "./dark";
+export { cupcake } from "./cupcake";
+export { dracula } from "./dracula";
+export { light } from "./light";
+export { synthwave } from "./synthwave";
+export { retro } from "./retro";
