@@ -13,7 +13,7 @@
     "build:clean": "tsc --build --clean",
     "build:watch": "tsc --build --watch",
     "copy": "yarn build && copy /Y package.json dist && copy /Y readme.md dist && cd dist",
-    "publish": "np"
+    "np": "np"
   },
   "keywords": [
     "mantine",
