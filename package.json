@@ -5,11 +5,15 @@
   "author": "johnsiras",
   "license": "MIT",
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
+  "np": {
+    "contents": "dist"
+  },
   "scripts": {
     "build": "tsc --build",
     "build:clean": "tsc --build --clean",
     "build:watch": "tsc --build --watch",
-    "copy": "yarn build && copy /Y package.json dist && copy /Y readme.md dist && cd dist"
+    "copy": "yarn build && copy /Y package.json dist && copy /Y readme.md dist && cd dist",
+    "publish": "np"
   },
   "keywords": [
     "mantine",
