@@ -4,9 +4,6 @@
   "description": "Mantine made themes.",
   "author": "johnsiras",
   "license": "MIT",
-  "np": {
-    "contents": "dist"
-  },
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
   "scripts": {
     "build": "tsc --build",
