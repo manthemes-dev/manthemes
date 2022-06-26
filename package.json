@@ -5,9 +5,6 @@
   "author": "johnsiras",
   "license": "MIT",
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
-  "np": {
-    "contents": "dist"
-  },
   "scripts": {
     "build": "tsc --build",
     "build:clean": "tsc --build --clean",
