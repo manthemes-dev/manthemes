@@ -1,11 +1,12 @@
-import { ManTheme } from "../utils";
+import { mantheme } from "../utils";
 
-export const dark = new ManTheme().create({
+export const dark = mantheme.create({
   colorScheme: "dark",
   black: "#121212",
   white: "#fff",
-  
+
   primaryColor: "blue",
+  primaryShade: 8,
 
   colors: {
     dark: [

@@ -1,15 +1,14 @@
 import { MantineColor, MantineThemeOverride } from "@mantine/core";
 
-import type { overrideProps } from "./mantheme.types";
-
 export default class ManTheme {
   /**
    * Create a new theme
    * @param props - the props to create
    */
   public create(props: MantineThemeOverride) {
-    if (Object.keys(props).length === 0)
+    if (Object.keys(props).length === 0) {
       throw new Error("Props must be specified");
+    }
 
     return Object.assign(this, props);
   }
@@ -17,22 +16,20 @@ export default class ManTheme {
   /**
    * Override an existing theme props or create a new one
    * @param props - the props to override
+   * @param theme - The theme (optional)
    */
-  public override({ props, theme }: overrideProps) {
-    if (Object.keys(props).length === 0)
-      throw new Error("Props must be specified");
-
-    Object.assign(theme || this, props);
-    return this;
+  public override(props: MantineThemeOverride, theme?: any) {
+    return Object.assign(theme || this, props);
   }
 
   /**
    * Get a specified color and return the shades of it
    * @param color - the color to specified
+   * @param theme - The theme (optional)
    */
-  public getColor(color: MantineColor, theme?: MantineThemeOverride) {
+  public getColor(color: MantineColor, theme?: any) {
     return (
-      theme?.colors?.[color] || (this as MantineThemeOverride).colors?.[color]
+      theme.colors[color] || (this as MantineThemeOverride).colors?.[color]
     );
   }
 
@@ -44,3 +41,5 @@ export default class ManTheme {
     return (theme || (this as MantineThemeOverride)).colors;
   }
 }
+
+export const mantheme = new ManTheme();

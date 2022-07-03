@@ -4,8 +4,3 @@ import { PartialDeep } from "type-fest";
 export type ThemeTypes = "daisyui" | "material" | "bootstrap";
 export type Props = MantineThemeOverride;
 export type Colors = PartialDeep<MantineThemeColors>;
-
-export interface overrideProps {
-  theme?: any;
-  props: Props;
-}

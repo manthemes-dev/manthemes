@@ -1,11 +1,12 @@
-import { ManTheme } from "../utils";
+import { mantheme } from "../utils";
 
-export const nightfox = new ManTheme().create({
+export const nightfox = mantheme.create({
   colorScheme: "dark",
   black: "#131a24",
   white: "#cdcecf",
 
   primaryShade: 8,
+  primaryColor: "yellow",
 
   colors: {
     dark: [
@@ -45,6 +46,19 @@ export const nightfox = new ManTheme().create({
       "#8DB9A4",
       "#81B19A",
       "#74AA90",
+    ],
+
+    yellow: [
+      "#FBF8EF",
+      "#F6F1DF",
+      "#F2E9CE",
+      "#EEE1BE",
+      "#EADAAE",
+      "#E6D39E",
+      "#E2CC8D",
+      "#DEC47D",
+      "#D9BC6D",
+      "#D5B55D",
     ],
 
     // WIP
