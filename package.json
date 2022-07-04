@@ -9,7 +9,7 @@
     "build": "tsc --build",
     "build:clean": "tsc --build --clean",
     "build:watch": "tsc --build --watch",
-    "copy": "npm run build && copy /Y package.json dist && copy /Y readme.md dist"
+    "copy": "pnpm build && copy /Y package.json dist && copy /Y readme.md dist"
   },
   "keywords": [
     "mantine",
