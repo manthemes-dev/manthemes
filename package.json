@@ -10,6 +10,7 @@
     "build:clean": "tsc --build --clean",
     "build:watch": "tsc --build --watch",
     "copy": "yarn build && copy /Y package.json dist && copy /Y readme.md dist",
+    "publish": "yarn publish ./dist --tag=latest",
     "publish:next": "yarn publish ./dist --tag=next"
   },
   "keywords": [
