@@ -1,6 +1,6 @@
-import { ManTheme } from "./utils";
+import { manthemes } from "./utils";
 
-export const moonlight = new ManTheme().create({
+export const moonlight = manthemes.create({
   colorScheme: "dark",
   white: "#e4f3fa",
   black: "#1B1E2B",
@@ -74,6 +74,44 @@ export const moonlight = new ManTheme().create({
       "#FF990A",
     ],
 
-    // WIP
+    cyan: [
+      "#DCC9F8",
+      "#D0B7F5",
+      "#C4A5F3",
+      "#B893F1",
+      "#AD81EF",
+      "#A16FEC",
+      "#955DEA",
+      "#894AE8",
+      "#7E38E5",
+      "#7226E3",
+    ],
+
+    blue: [
+      "#AEF1FE",
+      "#9AEDFE",
+      "#85EAFE",
+      "#72E6FE",
+      "#5EE2FD",
+      "#4ADFFC",
+      "#36DBFC",
+      "#22D7FC",
+      "#0ED4FB",
+      "#04CAF1",
+    ],
+
+    purple: [
+      "#E1DBFA",
+      "#D2C9F8",
+      "#C3B6F6",
+      "#B4A4F4",
+      "#A592F2",
+      "#9680EF",
+      "#876EED",
+      "#785CEB",
+      "#6949E9",
+      "#5A37E6",
+    ],
+    // TODO: Add more colors
   },
 });

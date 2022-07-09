@@ -1,6 +1,6 @@
-import { mantheme } from "../utils";
+import { manthemes } from "../utils";
 
-export const nightfox = mantheme.create({
+export const nightfox = manthemes.create({
   colorScheme: "dark",
   black: "#131a24",
   white: "#cdcecf",
@@ -60,7 +60,6 @@ export const nightfox = mantheme.create({
       "#D9BC6D",
       "#D5B55D",
     ],
-
     // WIP
   },
 });

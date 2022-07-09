@@ -1,7 +1,7 @@
-import { ManTheme } from "../utils";
+import { manthemes } from "../utils";
 import { defaultDaisyuiColors } from "../utils/defaultColors";
 
-export const light = new ManTheme().create({
+export const light = manthemes.create({
   colorScheme: "light",
   white: "#ffffff",
   black: "#1f2937",

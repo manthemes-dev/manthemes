@@ -1,6 +1,6 @@
-import { ManTheme } from "../utils";
+import { manthemes } from "../utils";
 
-export const synthwave = new ManTheme().create({
+export const synthwave = manthemes.create({
   colorScheme: "dark",
   black: "#2d1b69",
   white: "#f9f7fd",

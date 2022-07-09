@@ -1,6 +1,6 @@
 import { MantineColor, MantineThemeOverride } from "@mantine/core";
 
-export default class ManTheme {
+export default class Manthemes {
   /**
    * Create a new theme
    * @param props - the props to create
@@ -42,4 +42,4 @@ export default class ManTheme {
   }
 }
 
-export const mantheme = new ManTheme();
+export const manthemes = new Manthemes();

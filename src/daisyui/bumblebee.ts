@@ -1,6 +1,6 @@
-import { ManTheme } from "../utils";
+import { manthemes } from "../utils";
 
-export const bumblebee = new ManTheme().create({
+export const bumblebee = manthemes.create({
   colorScheme: "light",
   black: "#1f2937",
   white: "#ffffff",

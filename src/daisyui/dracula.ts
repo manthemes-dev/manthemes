@@ -1,6 +1,6 @@
-import { ManTheme } from "../utils";
+import { manthemes } from "../utils";
 
-export const dracula = new ManTheme().create({
+export const dracula = manthemes.create({
   colorScheme: "dark",
   black: "#282a36",
   white: "#f8f8f2",

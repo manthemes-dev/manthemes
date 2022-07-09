@@ -1,6 +1,6 @@
-import { ManTheme } from "../utils";
+import { manthemes } from "../utils";
 
-export const light = new ManTheme().create({
+export const light = manthemes.create({
   colorScheme: "light",
   black: "#212121",
   white: "#fafafa",

@@ -1,6 +1,6 @@
-import { ManTheme } from "../utils";
+import { manthemes } from "../utils";
 
-export const cupcake = new ManTheme().create({
+export const cupcake = manthemes.create({
   colorScheme: "light",
   white: "#faf7f5",
   black: "#291334",
