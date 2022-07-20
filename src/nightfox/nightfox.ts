@@ -6,7 +6,7 @@ export const nightfox = manthemes.create({
   white: "#cdcecf",
 
   primaryShade: 8,
-  primaryColor: "yellow",
+  primaryColor: "red",
 
   colors: {
     dark: [
