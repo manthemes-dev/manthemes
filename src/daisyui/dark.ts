@@ -3,11 +3,10 @@ import { defaultDaisyuiColors } from "../utils/defaultColors";
 
 export const dark = manthemes.create({
   colorScheme: "dark",
-  black: "#2A303C",
-  white: "#EBEBEB",
+  white: "#A6ADBB",
 
   primaryColor: "neutral",
-  primaryShade: 8,
+  primaryShade: 1,
 
   colors: {
     dark: [
