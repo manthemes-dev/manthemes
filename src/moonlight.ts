@@ -1,16 +1,15 @@
-import { manthemes } from "./utils";
+import { MantineThemeOverride } from "@mantine/core";
 
-export const moonlight = manthemes.create({
+export const moonlight: MantineThemeOverride = {
   colorScheme: "dark",
   white: "#e4f3fa",
   black: "#1B1E2B",
 
   primaryColor: "gray",
-  primaryShade: 8,
 
   colors: {
     dark: [
-      "#7476AA",
+      "#e4f3fa", // Default fg
       "#4E507E",
       "#4E507E",
       "#4E507E",
@@ -21,6 +20,8 @@ export const moonlight = manthemes.create({
       "#2E304D",
       "#212337",
     ],
+
+    neutral: [],
 
     gray: [
       "#D1D5F0",
@@ -114,4 +115,4 @@ export const moonlight = manthemes.create({
     ],
     // TODO: Add more colors
   },
-});
+};

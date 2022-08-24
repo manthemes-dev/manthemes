@@ -7,7 +7,6 @@
   "homepage": "https://github.com/Johnsiras/manthemes#readme",
   "scripts": {
     "build": "tsc --build",
-    "test": "jest",
     "copy": "yarn build && copy /Y package.json dist && copy /Y readme.md dist",
     "publish": "yarn publish ./dist --tag=latest",
     "publish:next": "yarn publish ./dist --tag=next"
@@ -20,14 +19,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Johnsiras/manthemes.git"
+    "url": "https://github.com/manthemes-dev/manthemes.git"
   },
   "bugs": {
-    "url": "https://github.com/Johnsiras/manthemes/issues"
+    "url": "https://github.com/manthemes-dev/manthemes/issues"
   },
   "dependencies": {
-    "@mantine/core": "4.2.9",
-    "type-fest": "^2.13.1"
+    "@mantine/core": "5.2.3",
+    "type-fest": "^2.19.0"
   },
   "devDependencies": {
     "typescript": "^4.7.3"

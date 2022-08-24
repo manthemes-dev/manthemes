@@ -1,14 +1,15 @@
-import { manthemes } from "../utils";
+import { MantineThemeOverride } from "@mantine/core";
 
-export const aqua = manthemes.createTheme({
+export const aqua: MantineThemeOverride = {
   colorScheme: "dark",
   white: "#c7dbff",
   black: "#345da7",
+
   primaryColor: "neutral",
 
   colors: {
     dark: [
-      "#c7dbff", // For fg
+      "#c7dbff", // Default fg
       "#92ACDD",
       "#83A1D8",
       "#7395D3",
@@ -124,4 +125,4 @@ export const aqua = manthemes.createTheme({
       "#D32222",
     ],
   },
-});
+};

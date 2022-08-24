@@ -9,11 +9,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "declarationMap": true,
-    "strict": true,
+    "strict": false,
     "skipLibCheck": true,
     "outDir": "dist",
-    "rootDir": "src",
-    "composite": true
+    "rootDir": "src"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]

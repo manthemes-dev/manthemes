@@ -1,15 +1,14 @@
-import { manthemes } from "../utils";
+import { MantineThemeOverride } from "@mantine/core";
 
-export const bumblebee = manthemes.create({
+export const bumblebee: MantineThemeOverride = {
   colorScheme: "light",
-  black: "#1f2937",
+  black: "#333333",
   white: "#ffffff",
 
   primaryColor: "neutral",
-  primaryShade: 8,
 
   colors: {
-    dark: [
+    neutral: [
       "#5454A0",
       "#4D4D93",
       "#464686",
@@ -18,21 +17,8 @@ export const bumblebee = manthemes.create({
       "#31315E",
       "#2A2A50",
       "#232343",
-      "#1C1C35",
-      "#151528",
-    ],
-
-    neutral: [
-      "#5C5CAD",
-      "#5252A3",
-      "#4B4B95",
-      "#444488",
-      "#3E3E7A",
-      "#37376D",
-      "#30305F",
-      "#292951",
-      "#222244",
-      "#181830",
+      "#1C1C36",
+      "#151529",
     ],
 
     orange: [
@@ -74,7 +60,7 @@ export const bumblebee = manthemes.create({
       "#181830",
     ],
 
-    info: [
+    cyan: [
       "#D8F2FE",
       "#C4ECFD",
       "#B1E5FC",
@@ -87,7 +73,7 @@ export const bumblebee = manthemes.create({
       "#26B9F7",
     ],
 
-    success: [
+    green: [
       "#BCF1DD",
       "#ABEDD5",
       "#9BE9CC",
@@ -100,7 +86,7 @@ export const bumblebee = manthemes.create({
       "#2CC98F",
     ],
 
-    warning: [
+    yellow1: [
       "#FDEDC3",
       "#FDE7AF",
       "#FDE19B",
@@ -113,7 +99,7 @@ export const bumblebee = manthemes.create({
       "#FAB80F",
     ],
 
-    error: [
+    red: [
       "#FFFFFF",
       "#FEEBEB",
       "#FED8D8",
@@ -126,4 +112,4 @@ export const bumblebee = manthemes.create({
       "#F75050",
     ],
   },
-});
+};
