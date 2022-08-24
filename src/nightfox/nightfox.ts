@@ -1,16 +1,15 @@
-import { manthemes } from "../utils";
+import { MantineThemeOverride } from "@mantine/core";
 
-export const nightfox = manthemes.create({
+export const nightfox: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#131a24",
   white: "#cdcecf",
 
-  primaryShade: 8,
-  primaryColor: "yellow",
+  primaryColor: "red",
 
   colors: {
     dark: [
-      "#5477A0",
+      "#cdcecf", // Default fg
       "#4D6D93",
       "#466386",
       "#3F5978",
@@ -21,6 +20,8 @@ export const nightfox = manthemes.create({
       "#1C2735",
       "#151D28",
     ],
+
+    neutral: [],
 
     red: [
       "#F1D0D8",
@@ -60,6 +61,31 @@ export const nightfox = manthemes.create({
       "#D9BC6D",
       "#D5B55D",
     ],
-    // WIP
+
+    cyan: [
+      "#EFF4FB",
+      "#DFE9F6",
+      "#CFDEF2",
+      "#C0D3ED",
+      "#B0C8E8",
+      "#A0BDE3",
+      "#90B2DF",
+      "#81A7DA",
+      "#719CD6",
+      "#6192D1",
+    ],
+
+    purple: [
+      "#DCD0F1",
+      "#D1C1EC",
+      "#C6B1E7",
+      "#BAA2E2",
+      "#AF92DD",
+      "#A382D9",
+      "#9873D4",
+      "#8C63CF",
+      "#8153CA",
+      "#7544C5",
+    ],
   },
-});
+};

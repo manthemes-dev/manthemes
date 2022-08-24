@@ -1,7 +1,8 @@
-import { Colors } from "./mantheme.types";
+import { MantineThemeColors } from "@mantine/core";
+import { PartialDeep } from "type-fest";
 
 // Colors
-export const defaultDaisyuiColors: Colors = {
+export const defaultDaisyuiColors: PartialDeep<MantineThemeColors> = {
   blue: [
     "#D8F2FE",
     "#C4ECFD",

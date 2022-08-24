@@ -1,16 +1,15 @@
-import { manthemes } from "../utils";
+import { MantineThemeOverride } from "@mantine/core";
 
-export const dracula = manthemes.create({
+export const dracula: MantineThemeOverride = {
   colorScheme: "dark",
   black: "#282a36",
   white: "#f8f8f2",
 
   primaryColor: "neutral",
-  primaryShade: 8,
 
   colors: {
     dark: [
-      "#676B8E",
+      "#f8f8f2", // Default fg
       "#5E6282",
       "#565A76",
       "#4D516A",
@@ -126,4 +125,4 @@ export const dracula = manthemes.create({
       "#FF0A0A",
     ],
   },
-});
+};

@@ -1,26 +1,25 @@
-import { manthemes } from "../utils";
+import { MantineThemeOverride } from "@mantine/core";
 import { defaultDaisyuiColors } from "../utils/defaultColors";
 
-export const dark = manthemes.create({
+export const dark: MantineThemeOverride = {
   colorScheme: "dark",
+  white: "#A6ADBB",
   black: "#2A303C",
-  white: "#EBEBEB",
 
   primaryColor: "neutral",
-  primaryShade: 8,
 
   colors: {
     dark: [
-      "#6C809D",
-      "#627693",
-      "#5A6C87",
-      "#52627A",
-      "#49586E",
-      "#414E62",
-      "#394456",
-      "#313A49",
-      "#29303D",
+      "#A6ADBB", // Default fg
+      "#4B566C",
+      "#434D60",
+      "#3B4454",
+      "#333A48",
+      "#2A303C",
       "#212630",
+      "#191D24",
+      "#111318",
+      "#08090C",
     ],
 
     neutral: [
@@ -77,6 +76,6 @@ export const dark = manthemes.create({
 
     ...defaultDaisyuiColors,
   },
-});
+};
 
 export default dark;
