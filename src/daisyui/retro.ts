@@ -1,12 +1,11 @@
-import { manthemes } from "../utils";
+import { MantineThemeOverride } from "@mantine/core";
 
-export const retro = manthemes.create({
+export const retro: MantineThemeOverride = {
   colorScheme: "light",
   white: "#e4d8b4",
   black: "#282425",
 
   primaryColor: "neutral",
-  primaryShade: 8,
 
   colors: {
     neutral: [
@@ -113,4 +112,4 @@ export const retro = manthemes.create({
       "#D32222",
     ],
   },
-});
+};

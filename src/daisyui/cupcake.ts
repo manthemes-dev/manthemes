@@ -1,18 +1,17 @@
-import { manthemes } from "../utils";
+import type { MantineThemeOverride } from "@mantine/core";
 
-export const cupcake = manthemes.create({
+export const cupcake: MantineThemeOverride = {
   colorScheme: "light",
   white: "#faf7f5",
   black: "#291334",
 
   primaryColor: "neutral",
-  primaryShade: 8,
 
   colors: {
     neutral: [
       "#8943B1",
       "#7E3EA3",
-      "#673285",
+      "#723894",
       "#673285",
       "#5B2D76",
       "#502768",
@@ -23,6 +22,7 @@ export const cupcake = manthemes.create({
     ],
 
     primary: [
+      "#E1F3F4",
       "#D2EDEE",
       "#C3E7E9",
       "#B4E2E4",
@@ -32,7 +32,6 @@ export const cupcake = manthemes.create({
       "#78CACE",
       "#69C4C9",
       "#5ABEC4",
-      "#4BB8BE",
     ],
 
     secondary: [
@@ -113,4 +112,4 @@ export const cupcake = manthemes.create({
       "#F75050",
     ],
   },
-});
+};
