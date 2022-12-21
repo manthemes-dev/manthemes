@@ -1,6 +1,6 @@
 import { MantineThemeOverride } from "@mantine/core";
 
-export const aqua: MantineThemeOverride = {
+export const aqua = (theme?: MantineThemeOverride) => ({
   colorScheme: "dark",
   white: "#c7dbff",
   black: "#345da7",
@@ -125,4 +125,5 @@ export const aqua: MantineThemeOverride = {
       "#D32222",
     ],
   },
-};
+  ...theme,
+});

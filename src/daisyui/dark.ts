@@ -1,7 +1,7 @@
 import { MantineThemeOverride } from "@mantine/core";
 import { defaultDaisyuiColors } from "../utils/defaultColors";
 
-export const dark: MantineThemeOverride = {
+export const dark = (theme?: MantineThemeOverride) => ({
   colorScheme: "dark",
   white: "#A6ADBB",
   black: "#2A303C",
@@ -76,6 +76,5 @@ export const dark: MantineThemeOverride = {
 
     ...defaultDaisyuiColors,
   },
-};
-
-export default dark;
+  ...theme,
+});

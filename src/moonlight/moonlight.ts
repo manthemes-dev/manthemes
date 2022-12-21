@@ -1,6 +1,6 @@
 import { MantineThemeOverride } from "@mantine/core";
 
-export const moonlight: MantineThemeOverride = {
+export const moonlight = (theme?: MantineThemeOverride) => ({
   colorScheme: "dark",
   white: "#e4f3fa",
   black: "#1B1E2B",
@@ -115,4 +115,5 @@ export const moonlight: MantineThemeOverride = {
     ],
     // TODO: Add more colors
   },
-};
+  ...theme,
+});
